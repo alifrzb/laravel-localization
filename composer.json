@@ -1,0 +1,24 @@
+{
+    "name": "alifrzb/laravel-localization",
+    "description": "Laravel localization",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alifrzb\\LaravelLocalization\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Firouzbakhsh",
+            "email": "ali.frzb@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alifrzb\\LaravelLocalization\\LaravelLocalizationServiceProvider"
+            ]
+        }
+    }
+}
